@@ -1,0 +1,33 @@
+
+.searchBarContainer {
+    width: 550px;
+    background-color: #212121;
+}
+
+.container{background-color:#303030;}
+
+.imageElement {
+    width: 50%;
+    /* height: 300px; */
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    margin: 80px;
+}
+
+/* .logoLink {
+    width: 50%;
+    height: 300px;
+    width: auto;
+    height: auto;
+} */
+
+/* .logoImage {
+    width: 150px;
+} */

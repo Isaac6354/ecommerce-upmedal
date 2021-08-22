@@ -1,0 +1,271 @@
+{
+  "store.home": {
+    "blocks": [
+      "tab-layout#home",
+      "flex-layout.row",
+      "list-context.image-list#home",
+      "rich-text"
+      
+      // "slider-layout#inicio"
+      // "tab-layout#home"
+      // "info-card#button-right",
+      // "info-card#button-left"
+    ]
+  },
+
+  // Aqui começa o tab-layout
+  
+  "tab-layout#home": {
+    "children": ["tab-list#home", "tab-content#home"]
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1", 
+      "tab-list.item#home2", 
+      "tab-list.item#home3", 
+      "tab-list.item#home4",
+      "tab-list.item#home5",
+      "tab-list.item#home6",
+      "tab-list.item#home7",
+      "tab-list.item#home8",
+      "tab-list.item#home9",
+      "tab-list.item#home10"
+    ]   
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "promocao",
+      "label": "Promoção",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "label": "Corinthians",
+      "tabId": "corinthians"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "Palmeiras"
+    }
+  },
+  "tab-list.item#home4": {
+    "props": {
+      "label": "Signos",
+      "tabId": "signos"
+    }
+  },
+  "tab-list.item#home5": {
+    "props": {
+      "label": "Divertidos",
+      "tabId": "divertidos"
+    }
+  },
+  "tab-list.item#home6": {
+    "props": {
+      "label": "7 Maravilhas",
+      "tabId": "7_maravilhas"
+    }
+  },
+  "tab-list.item#home7": {
+    "props": {
+      "label": "Guerreiros",
+      "tabId": "guerreiros"
+    }
+  },
+  "tab-list.item#home8": {
+    "props": {
+      "label": "Álbum1",
+      "tabId": "album_1"
+    }
+  },
+  "tab-list.item#home9": {
+    "props": {
+      "label": "Álbum2",
+      "tabId": "album_2"
+    }
+  },
+  "tab-list.item#home10": {
+    "props": {
+      "label": "Álbum3",
+      "tabId": "album_3"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1", 
+      "tab-content.item#home2", 
+      "tab-content.item#home3", 
+      "tab-content.item#home4",
+      "tab-content.item#home5",
+      "tab-content.item#home6",
+      "tab-content.item#home7",
+      "tab-content.item#home8",
+      "tab-content.item#home9",
+      "tab-content.item#home10"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": ["rich-text#home1"],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": ["rich-text#home2"],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+  "tab-content.item#home3": {
+    "children": ["rich-text#home3"],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#home4": {
+    "children": ["rich-text#home4"],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+  "tab-content.item#home5": {
+    "children": ["rich-text#home5"],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "tab-content.item#home6": {
+    "children": ["rich-text#home6"],
+    "props": {
+      "tabId": "7_maravilhas"
+    }
+  },
+  "tab-content.item#home7": {
+    "children": ["rich-text#home7"],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+  "tab-content.item#home8": {
+    "children": ["rich-text#home8"],
+    "props": {
+      "tabId": "album_1"
+    }
+  },
+  "tab-content.item#home9": {
+    "children": ["rich-text#home9"],
+    "props": {
+      "tabId": "album_2"
+    }
+  },
+  "tab-content.item#home10": {
+    "children": ["rich-text#home10"],
+    "props": {
+      "tabId": "album_3"
+    }
+  },
+  "rich-text#home1": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Promoção",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home2": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Corinthians",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home3": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Palmeiras",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home4": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Signos",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home5": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Divertidos",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home6": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = 7 Maravilhas",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home7": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Guerreiros",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home8": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Álbum1",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home9": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Álbum2",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#home10": {
+    "props": {
+      //"text": "Área do conteúdo da tab-list.item com  tabId = Álbum3",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  
+  //  Aqui começa as imagens do banner principal
+
+  "list-context.image-list#home": {
+    "children": ["slider-layout#home"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/BANNER-WOOD-1.png",
+          "mobileImage": "assets/BANNER-WOOD-1.png"
+        },
+        {
+          "image": "assets/BANNER-WOOD-2.png",
+          "mobileImage": "assets/BANNER-WOOD-2.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+}
